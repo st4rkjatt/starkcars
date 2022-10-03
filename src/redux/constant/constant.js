@@ -1,0 +1,38 @@
+// export const GET_ALL_DATA="GET_ALL_DATA"
+// export const ADD_NEW_DATA="ADD_NEW_DATA"
+// export const EDIT_DATA="EDIT_DATA"
+// export const DELETE_DATA="DELETE_DATA"
+
+
+
+
+export const CREATE_CONTACT = "CREATE_CONTACT";
+export const GET_CONTACT = "GET_CONTACT";
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+export const DELETE_CONTACT = "DELETE_CONTACT";
+
+
+// // export const GET_ALL_USER_REQUEST="GET_ALL_USER_REQUEST"
+// // export const GET_ALL_USER_SUCCESS="GET_ALL_USER_SUCCESS"
+// // export const GET_ALL_USER_FAIL="GET_ALL_USER_FAIL"
+
+
+
+// // export const ADD_USER_REQUEST="ADD_USER_REQUEST"
+// // export const ADD_USER_SUCCESS="ADD_USER_SUCCESS"
+// // export const ADD_USER_FAIL="ADD_USER_FAIL"
+
+
+// // export const EDIT_USER_REQUEST="EDIT_USER_REQUEST"
+// // export const EDIT_USER_SUCCESS="EDIT_USER_SUCCESS"
+// // export const EDIT_USER_FAIL="EDIT_USER_FAIL"
+
+
+
+// // export const DELETE_USER_REQUEST="DELETE_USER_REQUEST"
+// // export const DELETE_USER_SUCCESS="DELETE_USER_SUCCESS"
+// // export const DELETE_USER_FAIL="DELETE_USER_FAIL"
+
+// // export const ADD_NEW_USER_REQUEST="ADD_NEW_USER_REQUEST"
+// // export const ADD_NEW_USER_SUCCESS="ADD_NEW_USER_SUCCESS"
+// // export const ADD_NEW_USER_FAIL="ADD_NEW_USER_FAIL"

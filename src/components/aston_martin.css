@@ -1,0 +1,57 @@
+.first_img{
+    width: 100%;
+    height: 100vh;
+    animation: shrink 10s infinite alternate;
+    background-attachment: fixed;
+    background-image: radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.3)),url("https://amsc-prod-cd.azureedge.net/-/media/aston-martin/images/default-source/models/vahalla/new/1-hero-image-resize.jpg?mw=1980&rev=8b5b2a82fa784dce9bf3a542fe3a9802&format=webp&hash=6B213ECE8FBE83EFB2ED843E1EFF82F7");
+}
+
+@keyframes shrink {
+    0% {
+      background-size: 105% 105%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+
+
+  .text_shadow{
+    box-shadow: 0px 8px 22px rgb(231, 229, 229);
+    border-radius: 30px;
+
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    
+  }
+
+  .main_img2{
+    width: 100%;
+    height: 400px;
+    background: cover;
+    box-shadow: 0 8px 22px rgb(238, 236, 236);
+    border-radius: 30px;
+    
+}
+
+
+.main_img3{
+    width: 100%;
+    height: 820px;
+    background: cover;
+    box-shadow: 0 8px 22px rgb(238, 236, 236);
+    border-radius: 30px;
+}
+.row_shadow{
+    width: 100%;
+    height: 420px;
+    background: cover;
+    box-shadow: 0 8px 22px rgb(238, 236, 236);
+    border-radius: 30px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

@@ -1,0 +1,73 @@
+body{
+	background-color: #c7e9fb;
+	background: radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://wallpapercave.com/wp/wp5443690.jpg);
+	
+}
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+.img1{
+	width: 100%;
+	height: 500px;
+	background-position: cover;
+	box-shadow: 0px 8px 22px rgb(17, 57, 73);
+	border-radius: 30px;
+   transition: 2s   ;
+
+}
+	
+
+.card{
+	/* border: 2px solid red; */
+	background: #000;
+	box-shadow: 0px 8px 15px rgb(238, 241, 243);
+	border-radius: 30px;
+	cursor: pointer;
+
+}
+
+
+.card:hover .img1{
+	margin-bottom: 10px;
+
+}
+.card-title{
+	/* font-size: 35px; */
+	font-weight: 400;
+	color: white;
+	font-family: 'Wallpoet', cursive;
+	text-shadow:  8px 2px rgb(0, 140, 255);
+}
+
+.cardtext{
+	position: absolute;
+	bottom: 2rem;
+}
+.card-footer{
+	position: absolute;
+	bottom: 6rem;
+	color: white;
+	text-align: center;
+	background-attachment: fixed;
+}
+.card-footer p {
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Wallpoet', cursive;
+	text-shadow:  8px 2px rgb(240, 1, 1);
+}
+
+.card-footer span {
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Wallpoet', cursive;
+	text-shadow:  8px 2px rgb(240, 1, 1);
+}
+
+  
+  /* button */
+  
+  
+  
+  
+  
+  
+  

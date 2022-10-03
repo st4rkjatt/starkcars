@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+.carousel-caption{
+    /* margin-bottom: x; */
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Wallpoet', cursive;
+    
+}
+/* 
+h1,h3 {
+    font-family: 'Wallpoet', cursive;
+    font-weight: 900;
+    text-shadow: 8px 2px rgb(255, 0, 0);
+} */

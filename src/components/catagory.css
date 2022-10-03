@@ -1,0 +1,94 @@
+
+
+#categories {
+    height:500px;
+    background: #f4f4f4 url(../../public/categories-2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+#categories .categories-background {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+#categories .m-heading {
+    margin-bottom: 2rem;
+}
+
+#categories .container {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#categories .items {
+    display: flex;
+    padding: 1rem;
+    margin: 0 1.5rem;
+}
+
+#categories .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem 2.5rem;
+}
+
+#categories .items .item i {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: .8rem;
+    color: #fff;
+}
+
+/**** History Of Supercar ****/
+#history {
+    display: flex;
+    
+    height: 500px;
+}
+
+#history div {
+    flex: 1;
+}
+
+#history .history-img {
+    background: url(../../public/history.jpg) no-repeat  center/contain ;
+    /* background-attachment: fixed; */
+    box-shadow: 0 8px 10px rgb(0, 162, 255);
+    border-radius: 20px;
+    background-position: 100% 100%;
+    
+}
+
+#history .history-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    color: #fff;
+}
+
+#history .history-content p {
+    margin-bottom: 2.5rem;
+}
+
+
+.box_shadow{
+    box-shadow: 0 8px 22px rgb(0, 162, 255);
+    border-radius: 20px;
+}
+h1,h2{
+    text-shadow: 0 9px 8px blue;
+    font-family: 'Wallpoet', cursive;
+  
+
+}
+p{
+    font-weight: 500;
+   font-size: 18px;
+   font-family: 'BIZ UDMincho', serif;
+}

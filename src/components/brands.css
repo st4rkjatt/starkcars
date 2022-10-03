@@ -1,0 +1,98 @@
+
+
+
+.img_details{
+width: 100%;
+height: 100%;
+background-size: cover;
+/* border: 2px solid red; */
+position: relative;
+border-radius: 70px;
+
+
+
+-webkit-box-shadow: -14px 13px 72px 30px rgba(81,92,125,1);
+-moz-box-shadow: -14px 13px 72px 50px rgba(81,92,125,1);
+box-shadow: -14px 13px 72px 50px rgba(81,92,125,1);
+
+
+
+
+}
+/* h1 text animation */
+
+  
+
+
+/* text h2 animation */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+  .at-item {
+    font-weight:700;
+    font-family: 'Rubik Puddles', cursive;
+    
+    color: white;
+    animation-name: text-shadow-multicolor;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+     /* shorthand  */
+    animation: text-shadow-multicolor 2s ease 0s infinite normal none;
+    
+  }
+  @keyframes text-shadow-multicolor {
+    0%{
+      text-shadow: 0 5px 15px #f0f;
+    }
+    33%{
+      text-shadow:0 5px 15px #0ff;
+    }
+    66%{
+      text-shadow: 0 5px 10px #0f0;
+    }
+    100%{
+      text-shadow: 0 5px 10px #ff0;
+    }
+  }
+
+
+.bg_img{
+  background-position: center;
+  position: relative;
+  margin-top: 100px;
+  background-image: url("https://www.hdcarwallpapers.com/walls/ferrari_daytona_sp3_4k_2-HD.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+}
+  .logo_div{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+  }
+  /* ................ */
+
+  .img_div{
+    
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    /* border: 20px solid red; */
+    
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 100px;
+    /* border: 2px solid red; */
+  }
